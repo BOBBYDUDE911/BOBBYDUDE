@@ -1,0 +1,66 @@
+* {
+  font-family: "Arial";
+}
+
+h1 {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 35px;
+  border: 10px solid hsl(0, 0%, 0%);
+  padding: 0px
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: 2px solid
+}
+
+li a:hover {
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+  font-size: 30px;
+}
+
+a:hover {
+  background-color: rgb(68, 68, 68);
+  font-size: 35px;
+}
+
+a {
+  color: black;
+}
+
+body {
+  background-image: url("https://i.imgflip.com/4oyxen.png");
+  background-repeat: no-repeat;
+  background-size: 1067px;
+}
